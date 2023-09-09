@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="keywords" content="">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="index.css">
+    <title>HNG Internship | Precious Damian's Task 1</title>
+</head>
+<body>
+
+    <header>
+        <div class="container-head">
+            <h1>Frontend - HNG Task 1</h1>
+            <div class="under"></div>
+        </div>
+    </header>
+
+    <main>
+        <section class="container">
+            <div class="details">
+                <img src="./Assets/slack-profile.jpeg" alt="Precious Damian" data-testid="slackDisplayImage">
+                <h1 data-testid="slackUserName">Precious Damian</h1>
+                <p data-testid="myTrack">Frontend Track</p>
+            </div>
+
+            <div class="day">
+                <h2>Current Day and Time</h2>
+                <span data-testid="currentDayOfTheWeek" id="currentDayOfTheWeek"></span>
+                :
+                <span data-testid="currentUTCTime" id="currentTimeOfTheDay"></span>
+            </div>
+
+            <div class="github">
+                <h2>Github Repository</h2>
+                <a href="https://github.com/preciousdamian/HNG-Task-Frontend-1.git" data-testid="githubURL">
+                    <i class="fa fa-github"></i>
+                    GitHub Repository
+                </a>
+            </div>
+        </section>
+    </main>
+
+    <script src="./index.js"></script>
+</body>
+</html>
